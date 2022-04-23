@@ -1,0 +1,2 @@
+#!/bin/sh
+exec <$HOME/.gpg-passphrase /usr/bin/gpg --batch --pinentry-mode loopback --passphrase-fd 0 "$@"
